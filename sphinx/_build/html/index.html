@@ -1,0 +1,1185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>はじめに &#8212; sample 1.0 ドキュメント</title>
+    
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="検索" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="id1">
+<h1>はじめに<a class="headerlink" href="#id1" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<div class="section" id="id2">
+<h2>教材<a class="headerlink" href="#id2" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>GitHub実践入門</dt>
+<dd><ul class="first last">
+<li><a class="reference external" href="https://www.amazon.co.jp">https://www.amazon.co.jp</a>/GitHub実践入門-~Pull-Requestによる開発の変革-PRESS-plus/dp/477416366X?SubscriptionId=AKIAJ5QYOHUBLNKYFZHA&amp;tag=hirocaster-22&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=477416366X</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>kazuのまとめ</dt>
+<dd><ul class="first last">
+<li><a class="reference external" href="http:///bookinfo.wiki.fc2.com">http:///bookinfo.wiki.fc2.com</a></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="github">
+<h1>GitHub実践入門<a class="headerlink" href="#github" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<div class="section" id="id3">
+<h2>1. GitHubの世界へようこそ<a class="headerlink" href="#id3" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>GitHubはGitHub社で提供されるGitリポジトリのホスティングサービス</li>
+<li>Gitはリポジトリだけ、GitHubはGitリポジトリ+WebUI+便利な機能いろいろ</li>
+<li><dl class="first docutils">
+<dt>Gitを使うことで、コラボレーションの形が変わる</dt>
+<dd><ul class="first last">
+<li>PullRequestで自分が変更したソースを、元の開発者に取り込んでもらえる</li>
+<li>&#64;ユーザ名によるNotificationsをつけると気づいてもらえる</li>
+<li>GitHub Flavored Markdown(GFM)という気泡であらゆるものを記述可能</li>
+<li>気にあるリポジトリをWatchしておけばNewsFeedに流れてくる</li>
+<li>世界中が同じ開発スタイルになる</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>ソーシャルコーディング</dt>
+<dd><ul class="first last">
+<li>世界を閉ざさず、多種多様な文化を見る</li>
+<li><dl class="first docutils">
+<dt>本当にコードが書ける人が求められている</dt>
+<dd><ul class="first last">
+<li>人間性やマネジメント能力よりも</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li>他人が書いたコードを簡単に見れる</li>
+<li>自分が書いたコードを簡単に公開できる</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>GitHubの主な機能</dt>
+<dd><ul class="first last">
+<li><dl class="first docutils">
+<dt>Gitリポジトリ</dt>
+<dd><ul class="first last">
+<li>基本的にオープンだが、定額払えばprivateも可能</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Oganization</dt>
+<dd><ul class="first last">
+<li>アカウントや権限を統一することが可能</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Issue(task/issue管理)</dt>
+<dd><ul class="first last">
+<li>トラッキングや管理ができる機能</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>wiki</dt>
+<dd><ul class="first last">
+<li>GFMで記述できるwikiが使える</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li>Pull Request
+　- 機能追加やバグフィックスを本家に取り込んでもらうためのリクエスト</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="git">
+<h2>2. Gitの導入<a class="headerlink" href="#git" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>ソースコードの変更履歴を管理すること</dt>
+<dd><ul class="first last">
+<li><dl class="first docutils">
+<dt>Subversionは集中型</dt>
+<dd><ul class="first last">
+<li>リポジトリは一つ</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Gitは分散型</dt>
+<dd><ul class="first last">
+<li>リポジトリが複数、fork/PullRequestでリポジトリ間のやりとりをする</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li>集中型の方が簡単だが、分散型でも集中型と同じ使い方ができるので、Gitがおすすめ</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li>linux,macはデフォルト絵インストールされている</li>
+<li>windowsはmsysGitなどを使う</li>
+</ul>
+</div>
+<div class="section" id="id4">
+<h2>3. GitHubを利用する準備<a class="headerlink" href="#id4" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>GitHubのアカウントを作成する</li>
+<li><a class="reference external" href="https://github.com/join">https://github.com/join</a></li>
+<li>SSHの鍵を設定することもできる</li>
+<li>ユーザ名の横の＋マークでnew Repositoryで新しいリポジトリを作る</li>
+</ul>
+</div>
+<div class="section" id="id5">
+<h2>4. Gitを操作しながら学ぶ<a class="headerlink" href="#id5" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<div class="section" id="id6">
+<h3>基本的な操作<a class="headerlink" href="#id6" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>git init</dt>
+<dd><ul class="first last">
+<li>リポジトリの初期化</li>
+<li>bareオプションでワーキングディレクトリを持つかを指定</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>git status</dt>
+<dd><ul class="first last">
+<li>リポジトリの状態の確認</li>
+<li>不具合が起きた時などによく使う</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>git add</dt>
+<dd><ul class="first last">
+<li>ステージ領域(インデックス)に追加</li>
+<li>編集後も一度addしてからコミットする</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>git commit</dt>
+<dd><ul class="first last">
+<li>コミットをして変更を記録する</li>
+<li>git commit -m &#8220;message&#8221;でメッセージを付けられる</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>git log</dt>
+<dd><ul class="first last">
+<li>ログの確認</li>
+<li><dl class="first docutils">
+<dt>ファイル名/ディレクトリ名/深さを与えると対象を指定できる</dt>
+<dd><ul class="first last">
+<li>graphオプションでブランチを視覚的に表示する</li>
+<li>オプションがいろいろあるし、フィルタもできる</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>git diff</dt>
+<dd><ul class="first last">
+<li>ワーキングツリー/ステージ領域/最新コミット間の差分を表示する</li>
+<li>二つのファイルを明示する</li>
+<li>git diff HEAD でワーキングツリーと最新コミットの差分を表示</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="id7">
+<h3>ブランチ操作<a class="headerlink" href="#id7" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>git branch</dt>
+<dd><ul class="first last">
+<li>ブランチの一覧を表示する</li>
+<li>現在のブランチには*が表示される</li>
+<li>git branch ブランチ名で新しいブランチを作成する</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>git checkout ブランチ名</dt>
+<dd><ul class="first last">
+<li>ブランチに切り替える</li>
+<li>git checkout -で前のブランチに切り替える</li>
+<li>git checkout -b ブランチ名でブランチの作成と切り替えを同時に行う</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>git merge ブランチ名</dt>
+<dd><ul class="first last">
+<li>マージ先で作業を行う</li>
+<li>マージ先から、マージしたいブランチを呼び込む</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>git reset</dt>
+<dd><ul class="first last">
+<li>歴史をさかのぼる</li>
+<li><dl class="first docutils">
+<dt>過去のある時点からブランチを作成したいときに使う</dt>
+<dd><ul class="first last">
+<li>git reset &#8211;hard {hash}</li>
+<li>hashのコミットにローカルのファイル状態を含めて戻す</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>git rebase -i</dt>
+<dd><ul class="first last">
+<li>歴史を押しつぶして改変</li>
+<li>スペルミスなど簡易修正のために歴史をつぶして改変するときにつかう</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="id8">
+<h3>リモートリポジトリへの送信<a class="headerlink" href="#id8" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>git remote add</dt>
+<dd><ul class="first last">
+<li>githubなどでつくったリポジトリを登録する</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>git push</dt>
+<dd><ul class="first last">
+<li>git remote addで作ったリモートリポジトリへ送信する</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>git clone</dt>
+<dd><ul class="first last">
+<li>リモートリポジトリから情報を取得する</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>git pull</dt>
+<dd><ul class="first last">
+<li>最新のリモートブランチを取得する</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="id9">
+<h2>5. GitHubの機能を徹底解説<a class="headerlink" href="#id9" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>教科書とUIが少し変わっているので、新しい画面と合わせて説明</p>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>ショートカットキー</dt>
+<dd><ul class="first last">
+<li>いろいろあるので覚えると便利</li>
+<li>画面でShift+/で一覧が表示される</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>ツールバー</dt>
+<dd><ul class="first last">
+<li><dl class="first docutils">
+<dt>ロゴ</dt>
+<dd><ul class="first last">
+<li>ダッシュボードに戻れる</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Notifications</dt>
+<dd><ul class="first last">
+<li>すずのマークで変更や通知を確認できる</li>
+<li>メールへの送信設定もできる</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li>検索ウィンドウ
+　- ユーザやコードの断片でも検索してくれる</li>
+<li><dl class="first docutils">
+<dt>Gist</dt>
+<dd><ul class="first last">
+<li>リポジトリに入れるほどでもないコードを管理後悔するために使う</li>
+<li>構成管理され変更履歴の管理やforkもできる</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Create a new ...(+マーク0</dt>
+<dd><ul class="first last">
+<li>新しいリポジトリやOrganizationの作成</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Account Sttings</dt>
+<dd><ul class="first last">
+<li>アカウントの設定をいろいろいじれる</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>ダッシュボード</dt>
+<dd><ul class="first last">
+<li><dl class="first docutils">
+<dt>New Feed</dt>
+<dd><ul class="first last">
+<li>FollowユーザやWatchしているプロジェクトの活動状況が流れている</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>PullRequest</dt>
+<dd><ul class="first last">
+<li>行ったPullRequestやその後どうなったかを追える</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Issues</dt>
+<dd><ul class="first last">
+<li>リポジトリやアサインされたissueを確認できる</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>プロフィール</dt>
+<dd><ul class="first last">
+<li><dl class="first docutils">
+<dt>ユーザ情報</dt>
+<dd><ul class="first last">
+<li>名前や所属、メールアドレス、organizationなど</li>
+<li>ここでfollowをするとNewsFeedい活動が流れてくる</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Repositories</dt>
+<dd><ul class="first last">
+<li>ユーザが公開しているリポジトリが表示される</li>
+<li>人気がstarで表示される</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>リポジトリ</dt>
+<dd><ul class="first last">
+<li><dl class="first docutils">
+<dt>code</dt>
+<dd><ul class="first last">
+<li>リポジトリに入っているファイル一覧を表示</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>issues</dt>
+<dd><ul class="first last">
+<li>バグや機能追加などを管理</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>PullRequest</dt>
+<dd><ul class="first last">
+<li>PullRequestを管理</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Wiki</dt>
+<dd><ul class="first last">
+<li>wikiで情報を管理できる</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>pulse</dt>
+<dd><ul class="first last">
+<li>リポジトリの活動情報を表示</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Graphs</dt>
+<dd><ul class="first last">
+<li>リポジトリの活動指標をグラフで表している</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Settings</dt>
+<dd><ul class="first last">
+<li>リポジトリの設定を変更</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>commits</dt>
+<dd><ul class="first last">
+<li>commit/commit数</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>branches</dt>
+<dd><ul class="first last">
+<li>ブランチの一覧/ブランチ数</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>releases</dt>
+<dd><ul class="first last">
+<li>タグ一覧が表示</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>contributors</dt>
+<dd><ul class="first last">
+<li>リポジトリに対してコミットしたプログラマの一覧</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<div class="section" id="id10">
+<h3>差分の閲覧<a class="headerlink" href="#id10" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>URLを直接指定すると差分がみれる</dt>
+<dd><ul class="first last">
+<li><dl class="first docutils">
+<dt>Ruby on Railesのブランチ差分の例</dt>
+<dd><ul class="first last">
+<li><a class="reference external" href="https://github.com/rails/rails/compare/4-0-stable...3-2-stable">https://github.com/rails/rails/compare/4-0-stable...3-2-stable</a></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Ruby on Railesの数日前の差分の例</dt>
+<dd><ul class="first last">
+<li><a class="reference external" href="https://github.com/rails/rails/compare">https://github.com/rails/rails/compare</a><a class="reference external" href="mailto:/master&#37;&#52;&#48;{7&#46;day&#46;ago&#46;&#46;&#46;master">/master<span>&#64;</span>{7<span>&#46;</span>day<span>&#46;</span>ago<span>&#46;</span><span>&#46;</span><span>&#46;</span>master</a>}</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="issue">
+<h3>Issue<a class="headerlink" href="#issue" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>バグトラッキングを管理できる(チケット管理)</dt>
+<dd><ul class="first last">
+<li>issue及びコメントはGFMで記述できるため、表現力が豊か</li>
+<li>シンタックスハイライトもできる</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li>issueにはラベルをつけられたり、マイルストーン管理が可能</li>
+<li><dl class="first docutils">
+<dt>タスクリスト記法が使える</dt>
+<dd><ul class="first last">
+<li>[x]でかくとチェックボックスになる</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>コミットに特定のフォーマットの記述を書くことでissueの操作ができる</dt>
+<dd><ul class="first last">
+<li><dl class="first docutils">
+<dt>issueをクローズする例</dt>
+<dd><ul class="first last">
+<li>fix #1</li>
+<li>fixes #2</li>
+<li>fixed #3</li>
+<li>close #4</li>
+<li>closes #5</li>
+<li>closed #6</li>
+<li>resolve #7</li>
+<li>resolves #8</li>
+<li>resolved #9</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>issueをPullRequestに変換</dt>
+<dd><ul class="first last">
+<li>issueとPullRequestの番号は共通なのでGitHubのAPIで変換が可能</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="pullrequest">
+<h3>PullRequest<a class="headerlink" href="#pullrequest" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>オープンになっているPullRequestの詳細を確認できる</p>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>Conversion</dt>
+<dd><ul class="first last">
+<li>PullRequestに関するコメントやコミット履歴を確認できる</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>commits</dt>
+<dd><ul class="first last">
+<li>PullRequestに関するコミットの一覧が時系列で確認できる</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Files Changed</dt>
+<dd><ul class="first last">
+<li>PullRequestに関して変更されたファイル内容と差分が確認できる</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="wiki">
+<h3>Wiki<a class="headerlink" href="#wiki" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>単純な記法でドキュメントを作成、編集できる機能</p>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>Pages</dt>
+<dd><ul class="first last">
+<li>ページの一覧</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>History</dt>
+<dd><ul class="first last">
+<li>wikiの変更履歴を確認できる</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="pulse">
+<h3>Pulse<a class="headerlink" href="#pulse" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>active pull requests</dt>
+<dd><ul class="first last">
+<li>期間内に行われたPullRequestの数やマージされた数が表示される</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>active issues</dt>
+<dd><ul class="first last">
+<li>期間内に行われたissueが表示される</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="id11">
+<h2>6. はじめてのPullRequest<a class="headerlink" href="#id11" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>PullRequestとは</dt>
+<dd><ul class="first last">
+<li>あなたが加えた変更を相手のリポジトリに取り込んで欲しい時に使うもの</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>どんな時に使うか</dt>
+<dd><ul class="first last">
+<li>便利なソフトウェアを利用していた</li>
+<li>使っているうちにバグを見つけて、修正して使っていた</li>
+<li>本家に反映してもらえば、他の人の役にたつ</li>
+<li>PullRequestを送れば、貢献者となりみんなの役にたつ</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>PullRequestの準備</dt>
+<dd><ul class="first last">
+<li>オリジナルをForkして自分のリポジトリを作成する</li>
+<li>ローカルにcloneする</li>
+<li>トピックブランチを作成する</li>
+<li>コードを修正する</li>
+<li>変更をコミット</li>
+<li>リモートブランチの作成</li>
+<li>PullRequestを送る</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li>開発途中に議論をするためにPullRequestを送るという手法もある</li>
+<li><dl class="first docutils">
+<dt>ForkせずにブランチからPullRequestを送ることも可能</dt>
+<dd><ul class="first last">
+<li>リポジトリへの書き込み権限があれば、トピックブランチを作成しPullRequestを統合ブランチに送ることができる</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="id12">
+<h2>7. PullRequestが送られてきたら<a class="headerlink" href="#id12" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>PullRequestが送られてきたら、一覧に表示される</li>
+<li><dl class="first docutils">
+<dt>まず、ソースコードレビューをする</dt>
+<dd><ul class="first last">
+<li>ソースだけでなく、画像の差分なども確認できる</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li>次に、PullRequestを送ってきた人のリポジトリをクローンする</li>
+<li>確認用のブランチを作成し、PullRequestの内容をマージする</li>
+<li>問題がなければ、PullRequestをマージする</li>
+</ul>
+</div>
+<div class="section" id="id13">
+<h2>8. GitHubと連携するツールとサービス<a class="headerlink" href="#id13" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>hubコマンド</dt>
+<dd><ul class="first last">
+<li>gitコマンドをさらに使いやすくしたもの</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Travis CI</dt>
+<dd><ul class="first last">
+<li>CIツール、TravisCIに接続して連携設定をする</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Jenkins</dt>
+<dd><ul class="first last">
+<li>CIツール、多機能で様々なことができる</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Coveralls</dt>
+<dd><ul class="first last">
+<li>カバレッジツール</li>
+<li>TravisCI/Jenkinsなどが稼働していればすぐに使える</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Gemnasium</dt>
+<dd><ul class="first last">
+<li>最新のソフトウェア/ライブラリがリリースされていないかなどを確認できる</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="id14">
+<h2>9. GitHubを利用した開発フロー<a class="headerlink" href="#id14" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>全てをシンプルにすること</dt>
+<dd><ul class="first last">
+<li>本当に全部の機能やルールが必要なのかを考える</li>
+<li><dl class="first docutils">
+<dt>GitHubだけで必要な機能はほぼ全てある</dt>
+<dd><ul class="first last">
+<li>他の機能と連携する場合、本当にそれが必要なのか考えてから入れる</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>リポジトリをforkしないで使う方がよい</dt>
+<dd><ul class="first last">
+<li>リポジトリは1つで各々がpush/pull/PullRequestをするのが簡単</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>常にデプロイ。リリースという概念はない</dt>
+<dd><ol class="first last arabic">
+<li>masterブランチは常にデプロイ可能な状態とすrう</li>
+<li>新しい作業をするときは、masterからブランチを作成する</li>
+<li>作成したローカルリポジトリのブランチにコミットする</li>
+<li>同盟のブランチをGitHubのリポジトリに作成し、定期的にpushする</li>
+<li><dl class="first docutils">
+<dt>助けやフィードバックが欲しい場合は、PullRequestを出す</dt>
+<dd><ul class="first last">
+<li>ブランチをmasterにマージする時以外にもPullRequestを活用する</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li>他の開発者がレビューをして、完了したらmasterにマージ</li>
+<li><dl class="first docutils">
+<dt>masterは直ちにデプロイ</dt>
+<dd><ul class="first last">
+<li>デプロイは必ず完全自動化する</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>具体的な例</dt>
+<dd><ol class="first last arabic">
+<li>git clone <a class="reference external" href="https://XXX.git">https://XXX.git</a></li>
+<li>git checkout -b topic_branch</li>
+<li><dl class="first docutils">
+<dt>git push -u origin topic_branch</dt>
+<dd><ul class="first last">
+<li>他の人にブランチ作成と作業を通知するため</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li>新機能実装</li>
+<li>テストコード作成</li>
+<li>PullRequest作成</li>
+<li>フィードバックを受ける</li>
+<li>PullRequestを育てる(フィードバックを反映する)</li>
+<li>PullRequestがマージされる</li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>GitHubFlowをチームで実践するために</dt>
+<dd><ul class="first last">
+<li><dl class="first docutils">
+<dt>PullRequestのサイズを小さくする</dt>
+<dd><ul class="first last">
+<li>1つの機能を1つのブランチとすると大きすぎる</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li>試せる環境を作ること</li>
+<li><dl class="first docutils">
+<dt>PullRequestへのフィードバックを多くしすぎない</dt>
+<dd><ul class="first last">
+<li>なかなかマージされずいつまでもクローズされない</li>
+<li>コミュニケーション不足なら話し合いの場を持つ方が早い</li>
+<li>技術力不足なら、ルールの整備、勉強会、ペアプログラミングなどを実施する</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<div class="section" id="git-flow">
+<h3>Git Flow<a class="headerlink" href="#git-flow" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ul>
+<li><dl class="first docutils">
+<dt>理解しやすい標準的な流れ</dt>
+<dd><ol class="first last arabic simple">
+<li>開発用のブランチ(develop)から作業用のブランチ(future branches)を作成する</li>
+<li>作業用ブランチでの修正が終了すると、開発用ブランチに取り込まれる</li>
+<li>上記を繰り返しリリースできるレベルまで機能を育てたら、masterに統合され、タグを打ってリリースされる</li>
+<li>リリースしたものにバグがあれば、hotfixesをタグから作成し作業する</li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><p class="first">ワークフローも可能な限り簡単にすること</p>
+</li>
+<li><dl class="first docutils">
+<dt>具体的な例</dt>
+<dd><ul class="first simple">
+<li><dl class="first docutils">
+<dt>ブランチは以下のとおり</dt>
+<dd><ul class="first last">
+<li>master 常にリリース可能なブランチ。直接コミットはしない</li>
+<li>develop 開発中の中心となるブランチ。直接コミットしない</li>
+<li>feature developから作成され、直接コミットして編集するブランチ</li>
+<li>release developから作成され、リリース準備のために行うブランチで、メタ情報の更新や最終試験などのバグフィックスを行う。このブランチで仕様変更や機能追加などをしてはならない</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<ol class="last arabic simple">
+<li>developからfeatureブランチを作成する</li>
+<li>featureブランチで機能を実装する</li>
+<li>GitHubを通じて、developブランチへPullRequestを送る</li>
+<li>他の開発者のレビューを受けて、developにマージする</li>
+<li>developブランチからreleaseブランチを作成し、最終試験が行う</li>
+<li>releaseブランチをmasterブランチにマージしタグを作成する</li>
+<li>バグやセキュリティ脆弱性を見つけたら、hotfixブランチをmasterから作成する</li>
+<li>修正が終われば、masterと(開発中なら)developにPullRequestを発行し、マージする</li>
+</ol>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="id15">
+<h2>10. 会社でGitHubを使おう<a class="headerlink" href="#id15" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li>organizationを使う</li>
+<li>セキュリティ要件を確認する</li>
+<li>メンテナンス時間を確認する</li>
+<li>障害情報を確認する</li>
+<li>オンプレミス版のGitHub Enterpriseを検討する</li>
+<li><dl class="first docutils">
+<dt>Gitホスティングの別のサービスを検討する</dt>
+<dd><ul class="first last">
+<li>GitBucket</li>
+<li>GitLab</li>
+<li>Gitorious</li>
+<li>RhodeCode</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="appendixa-githubgui">
+<h2>AppendixA. GitHubをサポートするGUIクライアント<a class="headerlink" href="#appendixa-githubgui" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>GitHub for Mac/GitHub for windows</dt>
+<dd><ul class="first last">
+<li>GitHubからのクローン</li>
+<li>リポジトリの歴史を表示</li>
+<li>リポジトリの変更内容をコミット</li>
+<li>ブランチの切り替え</li>
+<li>GitHubへのpush</li>
+<li>通知センターへの通知(macのみ)</li>
+<li>GitHubEnterpriseとの連携(macのみ)</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>SourceTree</dt>
+<dd><ul class="first last">
+<li>Git/Mercurialに対応</li>
+<li>Git-flowをサポートしている</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="appendixb-gist">
+<h2>AppendixB. Gistで手軽にコード共有<a class="headerlink" href="#appendixb-gist" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>手軽にソースコードを公開できる</p>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>Gist description(省略可)</dt>
+<dd><ul class="first last">
+<li>ファイル群の説明文を記載</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>filename(省略可)</dt>
+<dd><ul class="first last">
+<li>ファイル名を指定</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>add file</dt>
+<dd><ul class="first last">
+<li>ファイルを追加したい場合</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Create secret gist/Create public gist</dt>
+<dd><ul class="first last">
+<li>gistの作成</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li>閲覧してコメントも残せる</li>
+</ul>
+</div>
+<div class="section" id="id16">
+<h2>そのほか<a class="headerlink" href="#id16" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>コマンドの練習になったサイト</dt>
+<dd><ul class="first last">
+<li><a class="reference external" href="http://pcottle.github.io/leaarnGitBranching/">http://pcottle.github.io/leaarnGitBranching/</a></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li>Macの通知センターでGitHubで受け取れる</li>
+</ul>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="#">目次</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">はじめに</a><ul>
+<li><a class="reference internal" href="#id2">教材</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#github">GitHub実践入門</a><ul>
+<li><a class="reference internal" href="#id3">1. GitHubの世界へようこそ</a></li>
+<li><a class="reference internal" href="#git">2. Gitの導入</a></li>
+<li><a class="reference internal" href="#id4">3. GitHubを利用する準備</a></li>
+<li><a class="reference internal" href="#id5">4. Gitを操作しながら学ぶ</a><ul>
+<li><a class="reference internal" href="#id6">基本的な操作</a></li>
+<li><a class="reference internal" href="#id7">ブランチ操作</a></li>
+<li><a class="reference internal" href="#id8">リモートリポジトリへの送信</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id9">5. GitHubの機能を徹底解説</a><ul>
+<li><a class="reference internal" href="#id10">差分の閲覧</a></li>
+<li><a class="reference internal" href="#issue">Issue</a></li>
+<li><a class="reference internal" href="#pullrequest">PullRequest</a></li>
+<li><a class="reference internal" href="#wiki">Wiki</a></li>
+<li><a class="reference internal" href="#pulse">Pulse</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id11">6. はじめてのPullRequest</a></li>
+<li><a class="reference internal" href="#id12">7. PullRequestが送られてきたら</a></li>
+<li><a class="reference internal" href="#id13">8. GitHubと連携するツールとサービス</a></li>
+<li><a class="reference internal" href="#id14">9. GitHubを利用した開発フロー</a><ul>
+<li><a class="reference internal" href="#git-flow">Git Flow</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id15">10. 会社でGitHubを使おう</a></li>
+<li><a class="reference internal" href="#appendixa-githubgui">AppendixA. GitHubをサポートするGUIクライアント</a></li>
+<li><a class="reference internal" href="#appendixb-gist">AppendixB. Gistで手軽にコード共有</a></li>
+<li><a class="reference internal" href="#id16">そのほか</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>このページ</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/index.rst.txt"
+            rel="nofollow">ソースコードを表示</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>クイック検索</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="検索" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, kazu.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
